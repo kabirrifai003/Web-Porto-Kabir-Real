@@ -1,0 +1,200 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+#Education {
+  background-color: #e2edff;
+}
+
+#Skills {
+  background-color: #e2edff;
+}
+#Projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.intro div.row {
+  padding: 0;
+}
+
+.intro-text span {
+  font-size: 40px;
+}
+
+.p-intro {
+  font-size: 18px;
+}
+
+/* animasi about */
+.about {
+  height: 400px;
+}
+
+.titik {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: -12px;
+  background-color: black;
+  margin-top: 5%;
+}
+
+.about, .titik, .education li, .experience li {
+  transition: .5s;
+}
+
+.education li, .skill li, .experience li {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.skill li .bungkus {
+  display: block;
+  width: 250px;
+  height: 4px;
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.skill li .bungkus span {
+  display: block;
+  width: 0;
+  height: 4px;
+  background-color: royalblue;
+  transition: .5s;
+}
+
+.education li p, .experience li p {
+  height: 0;
+  overflow: hidden;
+  transition: .5s;
+}
+/* selesai animasi about */
+
+
+/* Animasi navbar & intro*/
+.intro {
+  clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
+}
+
+.intro .gambar div {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 22% 100%);
+}
+
+.navbar a:hover {
+  filter: brightness(200%);
+}
+
+@keyframes geserAtas {
+  0%   {
+      transform: translate(0,-15px);
+  }
+  50%  {
+      transform: translate(0,-70px);
+  }
+  100% {
+      transform: translate(0,-15px);
+  }
+}
+
+.loop {
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.loop p {
+  animation: geserAtas 4s infinite;
+  transform: translate(0,-15px);
+}
+
+.intro p {
+  margin: 0;
+}
+
+/* Selesai Animasi navbar & intro */
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .navbar button {
+      transform: scale(.7);
+  }
+
+  .intro-text span{
+      font-size: 30px;
+  }
+
+  .p-intro {
+      font-size: 14px;
+  }
+
+  @keyframes geserAtas {
+      0%   {
+          transform: translate(0,-10px);
+      }
+      50%  {
+          transform: translate(0,-55px);
+      }
+      100% {
+          transform: translate(0,-10px);
+      }
+  }
+  .loop {
+      height: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar button {
+      transform: scale(.7);
+  }
+
+  .intro {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .intro div.row {
+      padding: 20px;
+      display: flex;
+      flex-direction: column-reverse;
+  }
+
+  .intro .gambar {
+      width: 80%;
+      margin: auto;
+  }
+
+  .intro .gambar div {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .intro-text span{
+      font-size: 20px;
+  }
+
+  .p-intro {
+      font-size: 10px;
+  }
+
+  @keyframes geserAtas {
+      0%   {
+          transform: translate(0,0);
+      }
+      50%  {
+          transform: translate(0,-30px);
+      }
+      100% {
+          transform: translate(0,0);
+      }
+  }
+
+  .about {
+      height: 800px;
+  }
+}
