@@ -18,6 +18,9 @@
     <!-- My Css -->
     <link rel="stylesheet" href="style.css" />
     <title>My Portofolio | Achmad Kabir Rifa'i</title>
+    <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+    <meta name="author" content="Vincent Garreau" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -27,19 +30,25 @@
 
   </head>
   <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm
-    fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#home">Achmad Kabir Rifa'i</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
+
+    
+    <!-- scripts -->
+  <script src="../particles.js"></script>
+  <script src="js/app.js"></script>
+  
+  <!-- Navbar -->
+  <nav class="navbar atas navbar-expand-lg navbar-dark shadow-sm
+  fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Achmad Kabir Rifai</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
             <li class="nav-item">
               <a class="nav-link" href="#About">About</a>
             </li>
@@ -65,23 +74,27 @@
         </div>
       </div>
     </nav>
-    <!-- Akhir Navbar -->
+    
 
+    <!-- Akhir Navbar -->
+    
     <!-- Jumbotron -->
 
     <section class="jumbotron text-center">
-      <img src="img/kabir.jpg" alt="Achmad Kabir Rifa'i" width="200" class="rounded-circle img-thumbnail"/>
-      <h1 class="display-4">Achmad Kabir Rifa'i</h1>
+      <img src="img/kabir2.jpeg" alt="Achmad Kabir Rifa'i" width="200" class="rounded-circle img-thumbnail"/>
+      <h1 class="display-4">Achmad Kabir Rifai</h1> 
       <p class="lead">    '</p>
+      <div class="tombol">
+      <button class="toggle jus">Dark mode</button>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#ffffff"
+          class="putih"
           fill-opacity="1"
           d="M0,128L48,144C96,160,192,192,288,213.3C384,235,480,245,576,208C672,171,768,85,864,69.3C960,53,1056,107,1152,122.7C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </section>
-
     <!-- Akhir Jumbotron -->
 
     
@@ -102,31 +115,10 @@
             <p>I am a person who is very motivated to develop in a better direction and always aspires to be a person who benefits the environment and who always finds ways to develop my skills. I really like and enjoy being able to communicate and meet new people and enjoy working with other people. Therefore in the future, I happily anticipate to expand my experience which makes me feel challenged.</p>
           </div>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <a href="https://www.instagram.com/kabirrifai03/" class="col-md-3"><div class="col-md- 3" data-aos="zoom-in">
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-            </svg>
-          </div></a>
-          <a href="https://www.linkedin.com/in/achmad-kabir-rifa-i-839139170" class="col-md-3"><div class="col-md-3" data-aos="zoom-in">
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-            </svg>
-          </div></a>
-          <a href="https://wa.me/6285693836114" class="col-md-3"><div class="col-md-3" data-aos="zoom-in">
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-              <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-            </svg>
-          </div></a>
-          <a href="https://line.me/ti/p/RQ5JYn_-OX" class="col-md-3"><div class="col-md-3" data-aos="zoom-in">
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-line" viewBox="0 0 16 16">
-              <path d="M8 0c4.411 0 8 2.912 8 6.492 0 1.433-.555 2.723-1.715 3.994-1.678 1.932-5.431 4.285-6.285 4.645-.83.35-.734-.197-.696-.413l.003-.018.114-.685c.027-.204.055-.521-.026-.723-.09-.223-.444-.339-.704-.395C2.846 12.39 0 9.701 0 6.492 0 2.912 3.59 0 8 0ZM5.022 7.686H3.497V4.918a.156.156 0 0 0-.155-.156H2.78a.156.156 0 0 0-.156.156v3.486c0 .041.017.08.044.107v.001l.002.002.002.002a.154.154 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157Zm.791-2.924a.156.156 0 0 0-.156.156v3.486c0 .086.07.155.156.155h.562c.086 0 .155-.07.155-.155V4.918a.156.156 0 0 0-.155-.156h-.562Zm3.863 0a.156.156 0 0 0-.156.156v2.07L7.923 4.832a.17.17 0 0 0-.013-.015v-.001a.139.139 0 0 0-.01-.01l-.003-.003a.092.092 0 0 0-.011-.009h-.001L7.88 4.79l-.003-.002a.029.029 0 0 0-.005-.003l-.008-.005h-.002l-.003-.002-.01-.004-.004-.002a.093.093 0 0 0-.01-.003h-.002l-.003-.001-.009-.002h-.006l-.003-.001h-.004l-.002-.001h-.574a.156.156 0 0 0-.156.155v3.486c0 .086.07.155.156.155h.56c.087 0 .157-.07.157-.155v-2.07l1.6 2.16a.154.154 0 0 0 .039.038l.001.001.01.006.004.002a.066.066 0 0 0 .008.004l.007.003.005.002a.168.168 0 0 0 .01.003h.003a.155.155 0 0 0 .04.006h.56c.087 0 .157-.07.157-.155V4.918a.156.156 0 0 0-.156-.156h-.561Zm3.815.717v-.56a.156.156 0 0 0-.155-.157h-2.242a.155.155 0 0 0-.108.044h-.001l-.001.002-.002.003a.155.155 0 0 0-.044.107v3.486c0 .041.017.08.044.107l.002.003.002.002a.155.155 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156Z"/>
-            </svg>
-          </div></a>
-        </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
+          class="abu"
           fill="#e2edff"
           fill-opacity="1"
           d="M0,256L48,234.7C96,213,192,171,288,165.3C384,160,480,192,576,202.7C672,213,768,203,864,170.7C960,139,1056,85,1152,80C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
@@ -138,7 +130,7 @@
     <!-- Education -->
     
     
-    <section id="Education">
+    <section id="Education" class="education">
       <div class="container">
         <div class="row text-center mb-5 ">
           <div class="col">
@@ -146,10 +138,18 @@
           </div>
         </div>
         <div class="row fs-5">
-          <div class="col-md-4">
+          <div class="col-md-5">
+            <h3 data-aos="fade-left"  data-aos-duration="1000" >SD Negeri Pondok Bambu 03 Pagi</h3>
+            <ul>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >2009 - 2012</li>
+            </ul>
+            <h3 data-aos="fade-left"  data-aos-duration="1000" >SD Negeri Cibubur 07 Petang</h3>
+            <ul>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >2012 - 2013</li>
+            </ul>
             <h3 data-aos="fade-left"  data-aos-duration="1000" >SD Negeri Cikoneng 1</h3>
             <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >2009 - 2015</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >2013 - 2015</li>
             </ul>
             <h3 data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >MTs Negeri Model Pandeglang 1</h3>
             <ul>
@@ -161,14 +161,14 @@
             </ul>
             <h3 data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="600" >Institut Teknologi Bandung</h3>
             <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="700" >2021 - 2024</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="700" >2021 - Sekarang</li>
             </ul>
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#fff"
+          class="putih"
           fill-opacity="1"
           d="M0,256L48,234.7C96,213,192,171,288,165.3C384,160,480,192,576,202.7C672,213,768,203,864,170.7C960,139,1056,85,1152,80C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -183,156 +183,111 @@
       <div class="container">
         <div class="row text-center mb-5">
           <div class="col">
-            <h2 data-aos="fade-down">Work Experience</h2>
+            <h2 data-aos="fade-down">Work, Internship, and Organization Experience</h2>
           </div>
         </div>  
         <div class="row fs-5">
           <div class="col-md-6">
-            <h3 data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="400" class="mb-5">SMA Negeri CMBBS</h3>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Organisasi Intra Sekolah</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Koordinator OSIS Sekretaris Bidang II | September 2019- Januari 2021</p>
+            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Santri Hub</h5>
             <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Memimpin Divisi dengan baik dan bijaksana.</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Mengkoordinasikan rapat divisi kepengurusan.</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="300" >Menetapkan kebijaksanaan yang telah dipersiapkan dan direncanakan oleh aparat kepengurusan.</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Memimpin rapat.</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Menetapkan kebijaksanaan dan mengambil keputusan berdasarkan musyawarah dan mufakat.</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Menyusun Program Rencana kerja.</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Melaksanakan kegiatan yang sudah ada.</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Video Production Manager (Juli 2022 -- Agustus 2022)</li>
+              <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Santri Hub adalah platform crowdsourcing yang memuat informasi kampus se Indonesia, jalur masuk, beasiswa, pesantren dan organisasi santri. karena kinerja saya yang cukup baik di santri hub, saya dipercayakan untuk menepati posisi manager video editor. tugas dari manager video editor adalah bertanggung jawab dan memastikan talent Santri Hub membuat video promosi sesuai dengan kebutuhan dan keinginan tim content specialist dan memastikan bahwa konten di upload sesuai dengan jadwal yang telah ditetapkan</p>
             </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Dewan Ambalan</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Koordinator Sekretaris Bidang Peralatan Dewan Ambalan Pramuka SMAN CMBBS | September 2019- Januari 2021</p>
             <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Make a reading corner program and public speaking as a literacy culture</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Language month event and poster competition</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="300" >Routine health checks for students and giving blood tablets</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Software Engineering (Feb 2022 -- April 2022)</li>
+              <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">pada pekerjaan ini saya ditempatkan di dalam divisi IT yang bertanggung jawab membuat website serta aplikasi mobile smartphone. saya sangat senang sekali diberikan kesempatan untuk mengembangkan skill serta kompetensi saya dibidang it, saya harap dikesempatan kedepannya saya dapat dipercaya kembali untuk bertanggung jawab di proyek yang lain. follow your dreams</p>
             </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Tim Olimpiade SMAN CMBBS</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Ketua Tim Olimpiade SMAN CMBBS | September 2019- Januari 2021</p>
             <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Make a reading corner program and public speaking as a literacy culture</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Language month event and poster competition</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="300" >Routine health checks for students and giving blood tablets</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Manager Santri Masuk PTN (September 2022 -- Desember 2022)</li>
+              <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">pada pekerjaan ini saya ditempatkan di dalam divisi Satri Masuk PTN yang bertanggung jawab untuk mengkoordinir para mentor di setiap PTN untuk melakukan mentoring kepada menteenya agar dapat terarah dan mengetahui segala kebutuhan menteenya dan sebagai sumber cerita serta informasi terkait masuk PTN</p>
             </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Kemah Selamat Datang</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Ketua Pelaksana Kemah Selamat Datang 2019 | September 2019- Januari 2021</p>
+            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Meraki Adika</h5>
             <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Make a reading corner program and public speaking as a literacy culture</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Language month event and poster competition</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="300" >Routine health checks for students and giving blood tablets</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Back End Developer (May 2022 -- Agustus 2022)</li>
+              <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Pada pekerjaan kali ini saya diberikan tugas untuk membuat data perusahaan yang diperlukan untuk melengkapi website yang sedang dibangun. Saya menggunakan aplikasi My SQL untuk membuat data tersebut dan mengelolanya</p>
             </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Semalam Di Cahaya Madani Ainjalut</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Anggota Sekretaris Bidang Keamanan | September 2019- Januari 2021</p>
+            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >BISA AI</h5>
             <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Make a reading corner program and public speaking as a literacy culture</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Language month event and poster competition</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="300" >Routine health checks for students and giving blood tablets</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Divisi Akademik (Nov 2021 -- Januari 2022)</li>
+              <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Bisa AI adalah sebuah perusahaan startUp yang bergerak di bidang digital dan teknologi yang berfokus pada pengembangan AI dan update teknologi lainnya. 
+                Di Bisa AI, saya Internship di bagian Divisi Pengembangan Akademik. Divisi ini merupakan jantung dalam perusahaan karena dalam divisi ini terdapat kegiatan rutinitas setiap bulannya yaitu menyelenggarakan Webinar yang bertemakan komputasi. Job desk saya yaitu menyelenggarakan Webinar bertemakan teknologi yang diselenggarakan minimal 1 bulan sekali. saya sangat excited dalam melaksanakan tugas Internship ini karena kegiatan ini dibarengi dengan passion saya dibidang ini yaitu programming. selain itu saya juga mendapatkan pengalaman baru dalam mengajarkan materi komputasi ke khalayak ramai, saya sangat excited memperkenalkan dunia programming yang sangat menarik kepada masyarakat umum. saya juga sangat bahagia karena ilmu yang saya dapatkan di perkuliahan dapat memberikan manfaat kepada orang lain</p>
             </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Bakti Sosial AUSHAF</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Anggota Sekretaris Bidang Peralatan | September 2019- Januari 2021</p>
+            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Banten Space</h5>
             <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Make a reading corner program and public speaking as a literacy culture</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Language month event and poster competition</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="300" >Routine health checks for students and giving blood tablets</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Tutor Matematika SMA (Juli 2021 -- Desember 2021)</li>
+              <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Bisa AI adalah sebuah perusahaan startUp yang bergerak di bidang digital dan teknologi yang berfokus pada pengembangan AI dan update teknologi lainnya. 
+                Banten.Space merupakan platform atau lembaga non profit yang berdiri sejak 2019 yang bergerak dibidang pendidikan. Latar belakang berdirinya Banten.space adalah adanya rasa ingin mengabdi kepada masyarakat Banten terutama kepada siswa tingkat SMA untuk mempersiapkan diri masuk ke perguruan tinggi impian mereka.
+                pada program internship yang diselenggarakan oleh Banten Space kali ini, saya di berikan tugas untuk mengajar materi UTBK bidang Matematika kepada siswa siswi dari berbagai daerah di Indonesia untuk mencapai impiannya bersekolah di perguruan tinggi negeri yang mereka cita citakan. Walaupun Program ini non profit, Saya sangat excited dengan program ini karena saya bisa memberikan manfaat, menebar kebaikan, dan membantu orang untuk mencapai impiannya. saya juga senang untuk membagikan ilmu yang telah saya dapatkan semenjak SMA, saya juga bisa mendapatkan pengalaman, relasi serta pengetahuan dari teman teman dari berbagai daerah di Indonesia. Program mengajar ini rutin diadakan setiap hari Sabtu, dan rutin juga mengadakan Pre-test, Post-test, serta Try Out bersama</p>
             </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Farewell Elfath 2019</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Bendahara Acara | September 2019- Januari 2021</p>
+            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Mentorring.id</h5>
             <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Make a reading corner program and public speaking as a literacy culture</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Language month event and poster competition</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="300" >Routine health checks for students and giving blood tablets</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Tutor Matematika SMA (Agustus 2021 -- Desember 2021)</li>
+              <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Mentoring.id merupakan lembaga nirlaba yang bergerak di bidang pendidikan terutama tingkat SMA. tujuan dari lembaga ini adalah membantu anak SMA untuk mempersiapkan masuk ke perguruan tinggi impian mereka dengan memberikan bantuan beruba pembelajaran materi UTBK.
+              pada program internship yang diselenggarakan oleh Mentorring.id kali ini, saya ditempatkan didivisi Operasional dengan sub divisi mentor Saintek dengan tugas yaitu mengajar materi UTBK bidang Matematika kepada siswa siswi dari berbagai daerah di Indonesia untuk mencapai impiannya bersekolah di perguruan tinggi negeri yang mereka cita citakan. Walaupun Program ini non profit, Saya sangat excited dengan program ini karena saya bisa memberikan manfaat, menebar kebaikan, dan membantu orang untuk mencapai impiannya. saya juga senang untuk membagikan ilmu yang telah saya dapatkan semenjak SMA, saya juga bisa mendapatkan pengalaman, relasi serta pengetahuan dari teman teman dari berbagai daerah di Indonesia. Program mengajar ini rutin diadakan setiap hari Kamis selama satu bulan sekali dalam kurun waktu 6 bulan, dan rutin juga mengadakan Pre-test, Post-test, serta Try Out bersama</p>
             </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >PASKIBRAKA</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Anggota PASKIBRAKA Sekolah | September 2019- Januari 2021</p>
+            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Baracita.id</h5>
             <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Make a reading corner program and public speaking as a literacy culture</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Language month event and poster competition</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="300" >Routine health checks for students and giving blood tablets</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Divisi Akademik (Desember 2021 -- Februari 2022)</li>
+              <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Baracita adalah suatu komunitas non-profit yang bergerak dalam bidang pendidikan terutama untuk membantu adik – adik SMA yang ingin mempersiapkan diri untuk menghadapi seleksi masuk perguruan tinggi SBMPTN atau ujian masuk lainnya.
+                Nama “Baracita” dikutip dari bahasa Sansekerta yang artinya “membara dalam cita”. Dengan harapan kedepannya, semoga dengan semangat-semangat yang terus disuarakan berkelanjutan akan mengantarkan ke jenjang yang lebih tinggi untuk menggapai cita-cita.                
+                Pada kegiatan internship di Baracita.id, saya berperan sebagai evaluator yang bertugas mengevaluasi kinerja tutor sebaya selama mengajar. Evaluasi terdiri atas penyampaian materi, teknik penyampaian materi, isi materi, dan tingkat pemahaman dari siswa terhadap materi. Setelah mengevaluasi, hasil evaluasi tersebut akan diberikan kepada tutor agar dapat memperbaiki kinerja di waktu yang akan datang. saya sangat menyukai pekerjaan ini karena saya dapat menilai kinerja tutor dari sudut pandang saya dan juga siswa, saya juga senang mengisi waktu saya dengan kegiatan yang bermanfaat dan produktif</p>
             </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >PASKIBRAKA</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Anggota PASKIBRAKA Sekolah | September 2019- Januari 2021</p>
-            <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Make a reading corner program and public speaking as a literacy culture</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Language month event and poster competition</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="300" >Routine health checks for students and giving blood tablets</li>
-            </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >MADARIS</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Anggota Ekstrakulikuler Madaris Sekolah | September 2019- Januari 2021</p>
-            <ul>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Make a reading corner program and public speaking as a literacy culture</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" >Language month event and poster competition</li>
-              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="300" >Routine health checks for students and giving blood tablets</li>
-            </ul>
+            
 
           </div>
           <div class="col-md-6">
-            
-            <h3 data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="600" class="mb-5">Institut Teknologi Bandung</h3>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Tim Virtual Roadshow Beasiswa Perintis 2022</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Penanggung Jawab Bagian Banten - Jakarta | 2021 - sekarang</p>
+            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >GDSC ITB</h5>
             <ul>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" > Time management during the event and talent preparation</li>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" > Event manager during training</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Member (November 2022 -- Now)</li>
+              <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Google Developer Student Clubs (GDSC) adalah kelompok komunitas berdasarkan universitas dan didesain untuk mahasiswa yang tertarik dengan teknologi Google developers. Dengan format program yang bertemu langsung dan online, mahasiswa dari program sarjana dan pascasarjana dengan ketertarikan untuk bertumbuh sebagai seorang developer boleh untuk bergabung. Dengan menjadi bagian DSC, mahasiswa dapat menambah ilmu dengan cara belajar bersama dan membuat solusi untuk bisnis lokal serta komunitas mereka. GDSC ITB merupakan Global Community yang ditujukan kepada mahasiswa diseluruh indonesia (tidak cuman ITB) diseluruh dunia yang memiliki ketertarikan terhadap Google. GDSC pertamakali dibentuk di India pada tahun 2017, dengan tujuan memfasilitasi para mahasiswa agar dapat lebih terasah dalam practical skills</p>
             </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Forum Bidikmisi ITB</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Divisi Kemasyarakatan | 2021 - sekarang</p>
+            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >IEEE ITB</h5>
             <ul>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" > Time management during the event and talent preparation</li>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" > Event manager during training</li>
-            </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >BISA AI</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Student Ambassador | 2021 - sekarang</p>
-            <ul>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" > Time management during the event and talent preparation</li>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" > Event manager during training</li>
-            </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Maju IDN</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Brand Ambassador | 2021 - sekarang</p>
-            <ul>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" > Time management during the event and talent preparation</li>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" > Event manager during training</li>
-            </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >GAMAIS ITB</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Member | 2021 - sekarang</p>
-            <ul>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" > Time management during the event and talent preparation</li>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" > Event manager during training</li>
-            </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Mentorring.id</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Tutor Akademik | 2021 - sekarang</p>
-            <ul>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" > Time management during the event and talent preparation</li>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" > Event manager during training</li>
-            </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Banten.space</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Tutor Akademik | 2021 - sekarang</p>
-            <ul>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" > Time management during the event and talent preparation</li>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" > Event manager during training</li>
-            </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Techo Entrepreneur Club ITB</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Member Internship | 2021 - sekarang</p>
-            <ul>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" > Time management during the event and talent preparation</li>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" > Event manager during training</li>
-            </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Compress Club ITB</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Divisi Operasional | 2021 - sekarang</p>
-            <ul>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" > Time management during the event and talent preparation</li>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" > Event manager during training</li>
-            </ul>
-            <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Baracita.id</h5>
-            <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Divisi Akademik | 2021 - sekarang</p>
-            <ul>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" > Time management during the event and talent preparation</li>
-                <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200" > Event manager during training</li>
+              <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Operation Division (Juni 2022 -- Now)</li>
+              <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">IEEE (Institute of Electrical and Electronics Engineers), didirikan pada tahun 1963 oleh ilmuwan terkenal seperti Thomas Alva Edison dan Nicola Tesla, adalah organisasi profesional teknis terbesar di dunia untuk kemajuan teknologi. Sekarang, IEEE memiliki lebih dari 3400 cabang mahasiswa di lebih dari 100 negara dengan lebih dari 124,000 anggota mahasiswa.
+                Cabang Mahasiswa IEEE ITB memiliki 3 misi besar: </p>
+                <ol data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100">1. Berdayakan pelajar yang antusias melalui paparan luas terhadap teknologi digital</ol>
+                <ol data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100">2. Mengadvokasi kolaborasi dan diskusi tentang inovasi teknologi</ol>
+                <ol data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100">3. Menyediakan jaringan antara industri, akademisi dan mahasiswa</ol>
+                
+                <p data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100">Jobdesk saya di divisi Operasional IEEE ITB adalah sebagai berikut :</p>
+                <ol data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100">1. Menyelenggarakan acara terkait IEEE ITB SB</ol>
+                <ol data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100">2. Menyediakan kebutuhan logistik</ol>
+                <ol data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100">3. Pilih lokasi/tempat/platform online yang paling sesuai, yang meliputi pemesanan, persiapan dan mengatur</ol>
+                <ol data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100">4. Negosiasikan kontrak dengan vendor seperti fotografer katering, layanan teknis dan transportasi</ol>
+                </ul>
+                <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >IMT "SIGNUM" ITB</h5>
+                <ul>
+                  <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Internship BP Kesejahteraan Mahasiswa (November 2022 -- Now)</li>
+                  <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Departemen Kesejahteraan Mahasiswa (KESMA) adalah Departemen yang bertanggung jawab atas pemenuhan kebutuhan mahasiswa Teknik Telekomunikasi dibidang akademik dan finansial mahasiswa</p>
+                </ul>
+                <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Forum Bidikmisi ITB</h5>
+                <ul>
+                  <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Internship Staff Kementerian Kemasyarakatan (November 2021 -- Juli 2021)</li>
+                  <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Pada internship FBM ITB 2021 kali ini, saya di tempat kan di divisi kemasyarakatan. Alasan saya memilih divisi ini karena saya ingin terjun langsung ke masyarakat untuk melihat secara jelas dengan mata saya bagaimana kondisi di lapangan. saya juga exited dengan divisi ini karena sering jalan jalan dan survei ketempat yang belum pernah saya kunjungi. Selama magang di Forum Bidikmisi ITB, saya sudah menjalankan program kerja divisi kemasyarakatan yaitu menyelenggarakan Webinar bertemakan "Kenal Adik". Dalam Webinar tersebut, saya berberan sebagai Operator yang mengatur keberlangsungan acara dari awal hingga akhir. Karena saya virus covid19 masih berlangsung, Webinar ini diselenggarakan online tetapi para panitia dikumpulkan disuatu caffe agar dapat berkoordinasi dengan baik dan lancar. 
+                    Kementerian Kemasyarakatan berperan dalam melakukan perencanaan, pelaksanaan, dan pengelolaan segala bentuk kegiatan atau bentuk program kerja yang memiliki kebermanfaatan bagi sesama beswan, masyarakat serta institusi yang terlibat didalamnya sebagai wujud kepekaan akademisi terhadap permasalahan yang ada di lingkungan masyarakat dan melakukan penggalangan donasi apabila terdapat musibah di Indonesia. Kementerian Kemasyarakatan memiliki arahan kerja sebagai berikut:
+                    1. Menyelenggarakan kegiatan yang bermanfaat untuk masyarakat sebagai wujud upaya meningkatkan kepekaan sosial dan kepedulian terhadap permasalahan di masyarakat
+                    2. Melakukan penggalangan donasi apabila terdapat musibah di Indonesia</p>
+                  <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Staff Kementerian Pengembangan Sumber Daya Anggota (Juli 2021 -- Now)</li>
+                  <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Pada internship FBM ITB 2021 kali ini, saya di tempat kan di divisi kemasyarakatan. Alasan saya memilih divisi ini karena saya ingin terjun langsung ke masyarakat untuk melihat secara jelas dengan mata saya bagaimana kondisi di lapangan. saya juga exited dengan divisi ini karena sering jalan jalan dan survei ketempat yang belum pernah saya kunjungi. Selama magang di Forum Bidikmisi ITB, saya sudah menjalankan program kerja divisi kemasyarakatan yaitu menyelenggarakan Webinar bertemakan "Kenal Adik". Dalam Webinar tersebut, saya berberan sebagai Operator yang mengatur keberlangsungan acara dari awal hingga akhir. Karena saya virus covid19 masih berlangsung, Webinar ini diselenggarakan online tetapi para panitia dikumpulkan disuatu caffe agar dapat berkoordinasi dengan baik dan lancar. 
+                    Kementerian Kemasyarakatan berperan dalam melakukan perencanaan, pelaksanaan, dan pengelolaan segala bentuk kegiatan atau bentuk program kerja yang memiliki kebermanfaatan bagi sesama beswan, masyarakat serta institusi yang terlibat didalamnya sebagai wujud kepekaan akademisi terhadap permasalahan yang ada di lingkungan masyarakat dan melakukan penggalangan donasi apabila terdapat musibah di Indonesia. Kementerian Kemasyarakatan memiliki arahan kerja sebagai berikut:
+                    1. Menyelenggarakan kegiatan yang bermanfaat untuk masyarakat sebagai wujud upaya meningkatkan kepekaan sosial dan kepedulian terhadap permasalahan di masyarakat
+                    2. Melakukan penggalangan donasi apabila terdapat musibah di Indonesia</p>
+                </ul>
+                <h5  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Sekolah Teknik Elektro dan Informatika (STEI) ITB 2021</h5>
+                <ul>
+                  <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Divisi Futsal STEI CUP 2022 (Juli 2021 -- Agustus 2021)</li>
+                  <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Membantu pelaksanaan lomba offline futsal STEI CUP 2022 dengan menjadi wasit pertandingan ataupun penghitung score dan bagan peserta</p>
+                  <li data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" >Divisi Operasional IMPACT 3.0 (April 2021 -- Juni 2021)</li>
+                  <p  data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="100" id="bejo">Membantu mensukseskan acara IMPACT 3.0 dengan bersama sama membantu jalannya acara dengan menyiapkan zoom meeting dari awal pembukaan sampai malam awarding night</p>
+                </ul>
             </ul>
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
+          class="abu"
           fill="#e2edff"
           fill-opacity="1"
           d="M0,256L48,234.7C96,213,192,171,288,165.3C384,160,480,192,576,202.7C672,213,768,203,864,170.7C960,139,1056,85,1152,80C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
@@ -365,35 +320,77 @@
                   <div class="ms-2 me-auto text-start">
                     <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Problem Solving</div>
                     <span class="bungkus"><span></span></span>
-                    <span>80%</span>
+                    <span class="persen">80%</span>
                   </div>
                 </li>
                 <li class="list-group-item d-flex border-0">
                   <div class="ms-2 me-auto text-start">
                     <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Teamwork</div>
                     <span class="bungkus"><span></span></span>
-                    <span>70%</span>
+                    <span class="persen">70%</span>
                   </div>
                 </li>
                 <li class="list-group-item d-flex border-0">
                   <div class="ms-2 me-auto text-start">
                     <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Leadership</div>
                     <span class="bungkus"><span></span></span>
-                    <span>90%</span>
+                    <span class="persen">90%</span>
                   </div>
                 </li>
                 <li class="list-group-item d-flex border-0">
                   <div class="ms-2 me-auto text-start">
-                    <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Ability to take criticism</div>
+                    <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Ability to take risk</div>
                     <span class="bungkus"><span></span></span>
-                    <span>90%</span>
+                    <span class="persen">90%</span>
                   </div>
                 </li>
                 <li class="list-group-item d-flex border-0">
                   <div class="ms-2 me-auto text-start">
                     <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Mass Communication (billingual)</div>
                     <span class="bungkus"><span></span></span>
-                    <span>90%</span>
+                    <span class="persen">90%</span>
+                  </div>
+                </li>
+                <li class="list-group-item d-flex border-0">
+                  <div class="ms-2 me-auto text-start">
+                    <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Work Hard</div>
+                    <span class="bungkus"><span></span></span>
+                    <span class="persen">90%</span>
+                  </div>
+                </li>
+                <li class="list-group-item d-flex border-0">
+                  <div class="ms-2 me-auto text-start">
+                    <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Ambitious</div>
+                    <span class="bungkus"><span></span></span>
+                    <span class="persen">90%</span>
+                  </div>
+                </li>
+                <li class="list-group-item d-flex border-0">
+                  <div class="ms-2 me-auto text-start">
+                    <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Initiatif</div>
+                    <span class="bungkus"><span></span></span>
+                    <span class="persen">90%</span>
+                  </div>
+                </li>
+                <li class="list-group-item d-flex border-0">
+                  <div class="ms-2 me-auto text-start">
+                    <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Adabtable</div>
+                    <span class="bungkus"><span></span></span>
+                    <span class="persen">90%</span>
+                  </div>
+                </li>
+                <li class="list-group-item d-flex border-0">
+                  <div class="ms-2 me-auto text-start">
+                    <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Respect</div>
+                    <span class="bungkus"><span></span></span>
+                    <span class="persen">90%</span>
+                  </div>
+                </li>
+                <li class="list-group-item d-flex border-0">
+                  <div class="ms-2 me-auto text-start">
+                    <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Disipline</div>
+                    <span class="bungkus"><span></span></span>
+                    <span class="persen">90%</span>
                   </div>
                 </li>
               </ul>
@@ -407,77 +404,86 @@
                 <div class="ms-2 me-auto text-start">
                   <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Basic Python</div>
                   <span class="bungkus"><span></span></span>
-                  <span>80%</span>
+                  <span class="persen">80%</span>
                 </div>
               </li>
               <li class="list-group-item d-flex border-0">
                 <div class="ms-2 me-auto text-start">
                   <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Data Analysis</div>
                   <span class="bungkus"><span></span></span>
-                  <span>70%</span>
+                  <span class="persen">70%</span>
                 </div>
               </li>
               <li class="list-group-item d-flex border-0">
                 <div class="ms-2 me-auto text-start">
                   <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Web Developer</div>
                   <span class="bungkus"><span></span></span>
-                  <span>90%</span>
+                  <span class="persen">90%</span>
                 </div>
               </li>
               <li class="list-group-item d-flex border-0">
                 <div class="ms-2 me-auto text-start">
                   <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Web Design</div>
                   <span class="bungkus"><span></span></span>
-                  <span>90%</span>
+                  <span class="persen">90%</span>
                 </div>
               </li>
               <li class="list-group-item d-flex border-0">
                 <div class="ms-2 me-auto text-start">
                   <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">HTML | CSS | Javascript</div>
                   <span class="bungkus"><span></span></span>
-                  <span>90%</span>
+                  <span class="persen">90%</span>
                 </div>
               </li>
               <li class="list-group-item d-flex border-0">
                 <div class="ms-2 me-auto text-start">
                   <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">UI design</div>
                   <span class="bungkus"><span></span></span>
-                  <span>90%</span>
+                  <span class="persen">90%</span>
                 </div>
               </li>
               <li class="list-group-item d-flex border-0">
                 <div class="ms-2 me-auto text-start">
                   <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Ms Word</div>
                   <span class="bungkus"><span></span></span>
-                  <span>90%</span>
+                  <span class="persen">90%</span>
                 </div>
               </li>
               <li class="list-group-item d-flex border-0">
                 <div class="ms-2 me-auto text-start">
                   <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Adobe Premie</div>
                   <span class="bungkus"><span></span></span>
-                  <span>90%</span>
+                  <span class="persen">90%</span>
                 </div>
               </li>
               <li class="list-group-item d-flex border-0">
                 <div class="ms-2 me-auto text-start">
                   <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Photo Shop</div>
                   <span class="bungkus"><span></span></span>
-                  <span>90%</span>
+                  <span class="persen">90%</span>
                 </div>
               </li>
               <li class="list-group-item d-flex border-0">
                 <div class="ms-2 me-auto text-start">
                   <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Ms Excel</div>
                   <span class="bungkus"><span></span></span>
-                  <span>90%</span>
+                  <span class="persen">90%</span>
                 </div>
+              </li>
+              <li class="list-group-item d-flex border-0">
+                <div class="ms-2 me-auto text-start">
+                  <div class="fw-bold"  data-aos="fade-right" data-aos-duration="2000">Canva</div>
+                  <span class="bungkus"><span></span></span>
+                  <span class="persen">90%</span>
+                </div>
+              </li>
           </div>
         </div>
       </div>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#fff"
+          class="putih"
           fill-opacity="1"
           d="M0,256L48,234.7C96,213,192,171,288,165.3C384,160,480,192,576,202.7C672,213,768,203,864,170.7C960,139,1056,85,1152,80C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -632,6 +638,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
+          class="abu"
           fill="#e2edff"
           fill-opacity="1"
           d="M0,256L48,234.7C96,213,192,171,288,165.3C384,160,480,192,576,202.7C672,213,768,203,864,170.7C960,139,1056,85,1152,80C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
@@ -653,43 +660,115 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500">
+          <div class="col-md-4 kartu mb-3" data-aos="flip-left" data-aos-duration="500">
             <div class="card">
-              <img src="project/1.PNG" class="card-img-top" alt="project 1"/>
+              <img src="project/1.jpeg" class="card-img-top" alt="project 1"/>
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text  text-center">Project Web tes untuk masuk Bengkel Radio IMT "SIGNUM" ITB</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+          <div class="col-md-4 kartu mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
             <div class="card">
-              <img src="project/2.PNG" class="card-img-top" alt="project 2" />
+              <img src="project/2.jpeg" class="card-img-top" alt="project 2" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text  text-center">Project membuat lapangan bulutangkis yang dapat menampilkan statistik hasil pertandingan dan arah kok</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
+          <div class="col-md-4 kartu mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
             <div class="card">
-              <img src="project/3.PNG" class="card-img-top" alt="project 3"/>
+              <img src="project/3.jpeg" class="card-img-top" alt="project 3"/>
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text  text-center">Project membuat Web Portofolio Achmad Kabir Rifai berisi tentang prestasi, sertifikat, skill, dll</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+          <div class="col-md-4 kartu mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
             <div class="card">
-              <img src="project/4.PNG" class="card-img-top" alt="project 4" />
+              <img src="project/4.jpeg" class="card-img-top" alt="project 4" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text  text-center">Project membuat media player</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3"data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+          <div class="col-md-4 kartu mb-3"data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
             <div class="card">
-              <img src="project/5.PNG" class="card-img-top" alt="project 5" />
+              <img src="project/5.jpeg" class="card-img-top" alt="project 5" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text  text-center">Project membuat ucapan selamat lebaran</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 kartu mb-3"data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <div class="card">
+              <img src="project/6.jpeg" class="card-img-top" alt="project 5" />
+              <div class="card-body">
+                <p class="card-text  text-center">Project membuat To-Do-List</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 kartu mb-3"data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <div class="card">
+              <img src="project/7.jpeg" class="card-img-top" alt="project 5" />
+              <div class="card-body">
+                <p class="card-text  text-center">Project membuat Linktree</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 kartu mb-3"data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <div class="card">
+              <img src="project/8.jpeg" class="card-img-top" alt="project 5" />
+              <div class="card-body">
+                <p class="card-text  text-center">Project membuat website password generator</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 kartu mb-3"data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <div class="card">
+              <img src="project/9.jpeg" class="card-img-top" alt="project 5" />
+              <div class="card-body">
+                <p class="card-text  text-center">Project membuat website overview film</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 kartu mb-3"data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <div class="card">
+              <img src="project/10.jpeg" class="card-img-top" alt="project 5" />
+              <div class="card-body">
+                <p class="card-text  text-center">Project membuat buku yang bisa dibuka</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 kartu mb-3"data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <div class="card">
+              <img src="project/11.jpeg" class="card-img-top" alt="project 5" />
+              <div class="card-body">
+                <p class="card-text  text-center">Project membuat web yang bisa gambar</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 kartu mb-3"data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <div class="card">
+              <img src="project/12.jpeg" class="card-img-top" alt="project 5" />
+              <div class="card-body">
+                <p class="card-text  text-center">Project progress goal air minum sehari</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 kartu mb-3"data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <div class="card">
+              <img src="project/13.jpeg" class="card-img-top" alt="project 5" />
+              <div class="card-body">
+                <p class="card-text  text-center">Project membuat Web Quiz</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 kartu mb-3"data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+            <div class="card">
+              <img src="project/14.jpeg" class="card-img-top" alt="project 5" />
+              <div class="card-body">
+                <p class="card-text  text-center">Project membuat theme clock, jam yang bisa berubah mode (Dark & Light)</p>
               </div>
             </div>
           </div>
@@ -697,7 +776,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#fff"
+          class="putih"
           fill-opacity="1"
           d="M0,160L48,170.7C96,181,192,203,288,186.7C384,171,480,117,576,122.7C672,128,768,192,864,218.7C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -728,22 +807,21 @@
                 <textarea class="form-control" id="pesan" rows="3"></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary mb-5">Kirim</button>
+              <button type="button" class="btn mb-5"><a href="https://mail.google.com/mail/u/0/?fs=1&to=achmadkabir003@gmail.com&tf=cm" style="color: #fff">Kirim</a></button>
             </form>
           </div>
         </div>
       </div>
       
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L48,122.7C96,117,192,107,288,138.7C384,171,480,245,576,240C672,235,768,149,864,138.7C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-
+    
     <!-- Akhir Contact -->
-
+    
     <!-- footer -->
-
-    <footer class="bg-primary text-white text-center pb-5">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="hitam"><path fill="hsl(240, 100%, 50%)" class="abu" fill-opacity="1" d="M0,128L48,122.7C96,117,192,107,288,138.7C384,171,480,245,576,240C672,235,768,149,864,138.7C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <section  class="footer text-white text-center pb-5">
       <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/kabirrifai03/" class="text-white fw-bold">Achmad Kabir Rifa'i</a></p>
-    </footer>
+    </section>
 
     <!-- akhir footer -->
 
@@ -757,7 +835,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.min.js"></script>
     <script>
       gsap.registerPlugin(TextPlugin);
-      gsap.to('.lead', {duration: 1.5, delay: 1.5, text: 'Freshman Undergraduate Student at Institut Teknologi Bandung'})
+      gsap.to('.lead', {duration: 1.5, delay: 1.5, text: 'Telecommunication Engineering at ITB'})
       gsap.from('.jumbotron img', {duration : 1, rotateY : 360, opacity: 0});
       gsap.from('.navbar', { duration : 1.5, y : '-100%', opacity: 0,  ease: 'bounce'})
       gsap.from('.display-4', { duration : 1, x : -50, opacity: 0,  delay:0.5, ease : 'back'})
@@ -765,7 +843,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-
+    <script src="particles.js"></script>
     <script src="js/script.js"></script>
+    
   </body>
 </html>

@@ -1,20 +1,96 @@
 .jumbotron {
+  width: 100%;
   padding-top: 6rem;
   background-color: #e2edff;
+  color: var(--grey);
 }
 #Education {
   background-color: #e2edff;
+  color: var(--grey);
+}
+
+
+.container {
+  overflow: hidden;
 }
 
 #Skills {
   background-color: #e2edff;
+  color: var(--grey);
 }
+
 #Projects {
   background-color: #e2edff;
+  color: var(--grey);
+}
+
+
+.hitam {
+  background-color: var(--secondary-color);
+  fill: var(--primary-color);
+}
+
+
+
+
+.putih {
+  background-color: var(--primary-color);
+  fill: var(--secondary-color);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --birumuda: #e2edff;
+  --biru : #0d6efd;
+  --greytua :#333;
+}
+
+html {
+  transition: all 0.5s ease-in;
+}
+
+html.dark {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --hitam: #000;
+  --grey: #333;
+}
+
+html.dark {
+  background-color: #000;
+  color: var(--primary-color);
+}
+
+
+
+
+.toggle {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 12px;
+  justify-content: center;
+  position: absolute;
+  left: 47%;
+  margin-bottom: 5rem;
+}
+
+.toggle:focus {
+  outline: none;
 }
 
 section {
   padding-top: 5rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .intro div.row {
@@ -89,6 +165,7 @@ section {
 
 .navbar a:hover {
   filter: brightness(200%);
+  width: 100%;
 }
 
 @keyframes geserAtas {
@@ -126,6 +203,10 @@ section {
       transform: scale(.7);
   }
 
+  .toggle {
+    left: 40%;
+  }
+
   .intro-text span{
       font-size: 30px;
   }
@@ -155,6 +236,10 @@ section {
       transform: scale(.7);
   }
 
+  .tombol {
+    margin-bottom: 5rem;
+  }
+
   .intro {
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
@@ -166,8 +251,8 @@ section {
   }
 
   .intro .gambar {
-      width: 80%;
-      margin: auto;
+      width: 70%;
+      margin: 5rem;
   }
 
   .intro .gambar div {
@@ -195,6 +280,69 @@ section {
   }
 
   .about {
-      height: 800px;
+    height: 800px;
   }
+}
+
+
+/* DARK */
+
+.jumbotron.dark {
+  background-color: #333;
+  color: white;
+}
+
+#Education.dark {
+  background-color: #333;
+  color: white;
+}
+#Skills.dark {
+  background-color: #333;
+  color: white;
+}
+#Projects.dark {
+  background-color: #333;
+  color: white;
+}
+
+.footer.dark {
+  background-color: #333;
+  color: white;
+}
+
+.fw-bold.dark {
+  color: white;
+}
+.persen.dark {
+  color: white;
+}
+
+.abu.dark{
+  fill: #333;
+}
+
+.card-text.dark {
+  color: #000;
+}
+
+.atas.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar {
+  background-color: blue;
+}
+
+.footer {
+  background-color: hsl(240, 100%, 50%);
+}
+
+.btn.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn {
+  background-color: blue;
 }
