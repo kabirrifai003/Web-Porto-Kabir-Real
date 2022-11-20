@@ -18,12 +18,6 @@ listSkill.forEach(el => {
 
 // Responsive
 
-if(window.screen.availWidth<=576){
-    x = document.querySelector(".intro div div.text")
-    x.classList.remove("col-6")
-    x = document.querySelector(".intro div div.gambar")
-    x.classList.remove("col-6")
-}
 
 const hourEl = document.querySelector('.hour')
 const minuteEl = document.querySelector('.minute')
