@@ -163,10 +163,6 @@ section {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 22% 100%);
 }
 
-.navbar a:hover {
-  filter: brightness(200%);
-  width: 80%;
-}
 
 @keyframes geserAtas {
   0%   {
