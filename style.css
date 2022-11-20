@@ -165,7 +165,7 @@ section {
 
 .navbar a:hover {
   filter: brightness(200%);
-  width: 100%;
+  width: 80%;
 }
 
 @keyframes geserAtas {
